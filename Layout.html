@@ -7,6 +7,7 @@ WALLACE COFFEE COMPANY
 
 <head>
 	<link href="bootstrap.css" rel="stylesheet">
+  <link href="wallace.css" rel="stylesheet">
 </head>
 
 <nav class="navbar navbar-default">
@@ -19,7 +20,7 @@ WALLACE COFFEE COMPANY
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Wallace Espresso</a>
+      <a class="navbar-brand" href="#"><img alt="Brand" src="./BrainStation_project_wallace_espresso/images/smalllogo.png"></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -49,8 +50,17 @@ WALLACE COFFEE COMPANY
 
 <!-- Carousel
     ================================================== -->
-    <div id="myCarousel" class="carousel slide">
-      <div class="carousel-inner">
+    
+
+  <div id="myCarousel" class="carousel slide">
+
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+        <div class="carousel-inner">
         <div class="item active">
           <img src="./BrainStation_project_wallace_espresso/images/mainimage1.jpg">
         </div>
@@ -63,8 +73,6 @@ WALLACE COFFEE COMPANY
           <img src="./BrainStation_project_wallace_espresso/images/mainimage3.jpg" alt="">
         </div>  
       </div>
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
     </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -72,7 +80,25 @@ WALLACE COFFEE COMPANY
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
     <!-- /.carousel -->
 
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+    <h1>ABOUT US</h1>
+    <p>Hello blah blah</p>
+    </div>
 
+  <div class="col-md-4 col-md-offset-2">
+    <h3>Location 1</h3>
+    <p>Blah Blah</p>
+  </div>
+
+  <div class="col-md-4">
+    <h3>Location 2</h3>
+    <p>Blah Blah</p>
+  </div>
+  
+  </div>
+</div>
 
 </body>
 
